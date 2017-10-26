@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E7C35E65-50FE-47E8-B687-361B85038328}</ProjectGuid>
+    <ProjectGuid>{92889A1B-3388-4680-9E38-74A9AB9220DA}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wwh.Mvc.Web</RootNamespace>
-    <AssemblyName>Wwh.Mvc.Web</AssemblyName>
+    <RootNamespace>Wwh.MVC.Web</RootNamespace>
+    <AssemblyName>Wwh.MVC.Web</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -46,12 +46,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -157,6 +151,61 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\account.jpg" />
+    <Content Include="Content\Images\arrow.gif" />
+    <Content Include="Content\Images\Article\icon_arrow_blue.gif" />
+    <Content Include="Content\Images\Article\sprite.gif" />
+    <Content Include="Content\Images\btn_bg.gif" />
+    <Content Include="Content\Images\default\headBg.jpg" />
+    <Content Include="Content\Images\default\head_bg.gif" />
+    <Content Include="Content\Images\default\Logo.png" />
+    <Content Include="Content\Images\gray\headBg.jpg" />
+    <Content Include="Content\Images\gray\Logo.png" />
+    <Content Include="Content\Images\icons.png" />
+    <Content Include="Content\Images\icon\cancel.png" />
+    <Content Include="Content\Images\icon\check.gif" />
+    <Content Include="Content\Images\icon\clear.png" />
+    <Content Include="Content\Images\icon\clearjob.png" />
+    <Content Include="Content\Images\icon\close.png" />
+    <Content Include="Content\Images\icon\convert.png" />
+    <Content Include="Content\Images\icon\copy.png" />
+    <Content Include="Content\Images\icon\delete.png" />
+    <Content Include="Content\Images\icon\detail.png" />
+    <Content Include="Content\Images\icon\edit.png" />
+    <Content Include="Content\Images\icon\excelt.png" />
+    <Content Include="Content\Images\icon\lookup.png" />
+    <Content Include="Content\Images\icon\memeber.gif" />
+    <Content Include="Content\Images\icon\no.png" />
+    <Content Include="Content\Images\icon\pass.png" />
+    <Content Include="Content\Images\icon\pdft.png" />
+    <Content Include="Content\Images\icon\plus.png" />
+    <Content Include="Content\Images\icon\return.png" />
+    <Content Include="Content\Images\icon\save.png" />
+    <Content Include="Content\Images\icon\select.gif" />
+    <Content Include="Content\Images\icon\send.png" />
+    <Content Include="Content\Images\icon\show.png" />
+    <Content Include="Content\Images\icon\start.gif" />
+    <Content Include="Content\Images\icon\stop.gif" />
+    <Content Include="Content\Images\icon\text.png" />
+    <Content Include="Content\Images\icon\tick.png" />
+    <Content Include="Content\Images\icon\transf.png" />
+    <Content Include="Content\Images\icon\uncheck.gif" />
+    <Content Include="Content\Images\icon\undo.png" />
+    <Content Include="Content\Images\icon\unknow.png" />
+    <Content Include="Content\Images\icon\unselect.gif" />
+    <Content Include="Content\Images\icon\wordt.png" />
+    <Content Include="Content\Images\icon\yes.png" />
+    <Content Include="Content\Images\loading.gif" />
+    <Content Include="Content\Images\loading2.gif" />
+    <Content Include="Content\Images\Logo.png" />
+    <Content Include="Content\Images\nopic-t.gif" />
+    <Content Include="Content\Images\nopic.gif" />
+    <Content Include="Content\Images\NotPic.jpg" />
+    <Content Include="Content\Images\sunny\headBg.jpg" />
+    <Content Include="Content\Images\sunny\Logo.png" />
+    <Content Include="Content\Images\tools.png" />
+    <Content Include="Content\Images\tools_bg.gif" />
+    <Content Include="Content\Images\upfile_bg.gif" />
     <Content Include="Content\themes\black\accordion.css" />
     <Content Include="Content\themes\black\calendar.css" />
     <Content Include="Content\themes\black\combo.css" />
@@ -556,10 +605,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\themes\material\images\Thumbs.db" />
-    <Content Include="Index.cshtml" />
+    <Content Include="Content\Images\Logo.psd" />
+    <Content Include="Content\Images\sunny\Logo.psd" />
+    <Content Include="Content\Images\sunny\未标题-1.psd" />
     <Content Include="Content\themes\blue\.DS_Store" />
     <None Include="Scripts\jquery-1.11.3.intellisense.js" />
     <Content Include="Scripts\easyloader.js" />
+    <Content Include="Scripts\home.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery-1.11.3.min.map" />
@@ -607,11 +659,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Start\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -641,9 +698,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>62422</DevelopmentServerPort>
+          <DevelopmentServerPort>49989</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62422/</IISUrl>
+          <IISUrl>http://localhost:49989/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
