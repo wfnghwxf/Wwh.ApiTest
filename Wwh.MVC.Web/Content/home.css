@@ -1,9 +1,29 @@
-﻿.define-head {
-    font-family: Verdana,Geneva,sans-serif;
+﻿.navbar {
+    width: 100%;
     background-color: #EFEFEF;
+    background: url('/Content/Images/default/head_bg.gif');
+    border:none;
+}
+
+.define-head {
+    font-family: Verdana,Geneva,sans-serif;
     height: 55px;
     overflow: hidden;
-    background: url('/Content/Images/default/head_bg.gif');
+}
+
+.body-content {
+    margin:60px 10px 10px 10px;
+}
+
+.body-content .content-padding {
+    padding: 0px 10px 0px 10px;
+    background:#fff;
+}
+
+.body-footer {
+    height:40px;
+    width:100%;
+    background-color:aliceblue;
 }
 
 .define-head .define-logo {
