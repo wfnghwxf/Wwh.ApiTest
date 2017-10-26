@@ -1,0 +1,69 @@
+﻿.define-head {
+    font-family: Verdana,Geneva,sans-serif;
+    background-color: #EFEFEF;
+    height: 55px;
+    overflow: hidden;
+    background: url('/Content/Images/default/head_bg.gif');
+}
+
+.define-head .define-logo {
+    height: 52px;
+    width: 50%;
+    float: left;
+    background: url('/Content/Images/default/Logo.png') 10px 7px no-repeat
+}
+
+.define-head .define-logo #LoginTopLine {
+    letter-spacing: 2px;
+    margin: 8px 0px 0px 10px;
+    text-shadow: 3px 1px 6px #fff;
+    color: #15428B;
+    font-size: 26px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 55px;
+}
+
+.define-head .define-logo #LoginBotoomLine {
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 6px #fff;
+    color: #15428B;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    padding-left: 65px;
+}
+
+.define-head .define-account {
+    height: 50px;
+    width: 50%;
+    float: right;
+    text-align: right;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.define-head .define-account a {
+    color: #fff
+}
+
+.define-head .define-account a:hover {
+    color: #FF0;
+}
+
+.define-head .define-account span {
+    padding-left: 18px;
+    background: url(/Content/Images/icon/memeber.gif) left center no-repeat;
+}
+
+.define-head .define-account span b {
+    font-weight: normal;
+    color: #FF0;
+}
+
+.define-bottom {
+    background-color: #F2F5F7;
+    height: 20px;
+    line-height: 20px;
+}

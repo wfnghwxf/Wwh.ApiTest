@@ -9,11 +9,12 @@ namespace Wwh.MVC.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.min.js"));
+                        "~/Scripts/jquery-1.11.3.min.js"));
             bundles.Add(new ScriptBundle("~/bundles/easyui").Include(
-                        "~/Scripts/jquery.easyui-{version}.min.js"));
+                        "~/Scripts/jquery.easyui-1.4.5.min.js"));
 
-
+            bundles.Add(new StyleBundle("~/bundles/homecss").Include(
+           "~/Content/home.css"));
             bundles.Add(new ScriptBundle("~/bundles/home").Include(
                        "~/Scripts/home.js"));
 
