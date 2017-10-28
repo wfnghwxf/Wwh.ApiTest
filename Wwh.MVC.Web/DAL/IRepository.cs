@@ -98,12 +98,12 @@ namespace Wwh.MVC.Web.DAL
         T GetFristDefault<T>(Expression<Func<T, bool>> WhereLambda = null) where T : class;
 
         /// <summary>
-        /// 查询所有的数据
+        /// 获取所有的对象
         /// </summary>
         /// <typeparam name="T"></typeparam>
+        /// <param name="Order"></param>
         /// <returns></returns>
-        List<T> GetAll<T>(string Order = null) where T : class;
-
+        List<T> GetAll<T>(Expression<Func<T, T>> Order) where T : class;
         /// <summary>
         /// 含有带条件的查询
         /// </summary>
@@ -142,8 +142,7 @@ namespace Wwh.MVC.Web.DAL
         /// <param name="WhereLambda">查询条件</param>
         /// <param name="IsOrder">是否正序</param>
         /// <returns></returns>
-        List<T> Pagination<T, TKey>(int PageIndex, int PageSize, out int TotalCount, Expression<Func<T, TKey>> OrderBy, Expression<Func<T, bool>> WhereLambda = null, bool IsOrder = true) where T : class;
-
+        List<T> Pagination<T>(int PageIndex, int PageSize, out int TotalCount, Expression<Func<T, T>> Ordering, Expression<Func<T, bool>> WhereLambda = null) where T : class;
 
         /// <summary>
         /// 根据查询条件进行做分页查询
@@ -155,7 +154,7 @@ namespace Wwh.MVC.Web.DAL
         /// <param name="ordering">排序条件</param>
         /// <param name="WhereLambda">查询条件</param>
         /// <returns></returns>
-        List<T> Pagination<T>(int PageIndex, int PageSize, out int TotalCount, string ordering, Expression<Func<T, bool>> WhereLambda = null) where T : class;
+        List<T> Pagination<T, TKey>(int PageIndex, int PageSize, out int TotalCount, Expression<Func<T, TKey>> OrderBy, Expression<Func<T, bool>> WhereLambda = null, bool IsOrder = true) where T : class;
 
 
         /// <summary>
